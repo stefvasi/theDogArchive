@@ -1,0 +1,162 @@
+/*mobile-first = column - flex direction height=default
+στα media queries το height=100%*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-wrapper {
+    flex: 1 1 auto;
+    margin: 0 10px;
+    display: block;
+}
+
+.footer-wrapper {
+    flex: 0 1 auto;
+}
+
+nav {
+    display: block;
+}
+
+.main-nav-uncollapsed {
+    display: block;
+}
+
+.menu-button-box {
+    float: right;
+}
+
+.main-nav-collapsed {
+    display: block;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-right: 15px;
+}
+
+.main-nav {
+    display: none;
+    height: 50px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.lang-toggle {
+    float: left;
+    padding: 0 0;
+}
+
+.lang-toggle-item {
+    display: inline;
+}
+
+.main-nav-list {
+    float: right;
+}
+
+.main-nav-item {
+    display: inline;
+    padding: 10px;
+}
+
+.main-nav-item {}
+
+.main-nav-item+.main-nav-item {
+    margin-left: 15px;
+}
+
+.main-content {
+    display: block;
+    margin: auto;
+}
+
+.upper-row {
+    display: block;
+}
+
+.lower-row {
+    display: block;
+    margin-bottom: 40px;
+}
+
+header {
+    display: block;
+}
+
+.main-header {}
+
+.header-container {
+    margin: 20px 0;
+}
+
+.header-title {
+    font-weight: normal;
+    line-height: 1em;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 0 0;
+}
+
+.menu-image-container {
+    display: block;
+    position: relative;
+    max-width: 720px;
+    height: 310px;
+    width: 100%;
+    margin: 25px auto;
+    opacity: 0.85;
+}
+
+.menu-image-container:hover {
+  opacity: 1;
+}
+
+
+/*.menu-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+}*/
+
+.menu-image-title {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 250px;
+}
+
+.menu-image-text {
+    padding-left: 15px;
+}
+
+footer {
+    height: 50px;
+}
+
+.footer-container {
+    max-width: 720px;
+    padding: 15px 5px;
+    margin: auto;
+}
+
+#image1 {
+    background: url(/img/koudelka.jpg) center;
+}
+
+#image2 {
+    background: url(/img/koudelka2.jpg) center;
+}
+
+#image3 {
+    background: url(/img/koudelka3.jpg) center;
+}
+
+#image4 {
+    background: url(/img/koudelka4.jpg) center;
+}
+
+#image5 {
+    background: url(/img/koudelka5.jpg) center;
+}
